@@ -158,6 +158,13 @@
 			</pods>
 		</podspec>
 
+		<!-- OPTIONS -->
+		<!-- <preference name="IOS_STRIP_DEBUG" default="false" /> -->
+		<!-- <preference name="SETUP_RECAPTCHA_VERIFICATION" default="false" /> -->
+		<!-- <preference name="IOS_SHOULD_ESTABLISH_DIRECT_CHANNEL" default="false" /> -->
+		<!-- <preference name="IOS_FIREBASE_CONFIG_FILEPATH" default="resources/ios/GoogleService-Info.plist" /> -->
+		<!-- <preference name="IOS_ENABLE_APPLE_SIGNIN" default="true" /> -->
+
 	</platform>
 
 	<hook type="after_prepare" src="scripts/after_prepare.js" />
