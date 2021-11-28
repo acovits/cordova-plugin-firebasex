@@ -101,6 +101,8 @@
 		<hook type="after_plugin_install" src="scripts/ios/after_plugin_install.js" />
 		<hook type="before_plugin_uninstall" src="scripts/ios/before_plugin_uninstall.js" />
 
+		<pod name="Firebase/Core" spec="6.3.0" />
+
 		<js-module name="FirebasePlugin" src="www/firebase.js">
 			<clobbers target="cordova.plugins.firebasex" />
 		</js-module>
@@ -111,15 +113,12 @@
 			</feature>
 		</config-file>
 
-		<!--
 		<config-file target="*/Entitlements-Debug.plist" parent="aps-environment">
 			<string>development</string>
 		</config-file>
 		<config-file target="*/Entitlements-Release.plist" parent="aps-environment">
 			<string>production</string>
 		</config-file>
-		-->
-
 
 		<config-file target="*-Info.plist" parent="UIBackgroundModes">
 			<array>
